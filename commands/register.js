@@ -5,6 +5,6 @@ module.exports = {
 		.setName('register')
 		.setDescription('To register in the Dojo !'),
 	async execute(interaction) {
-		return interaction.reply(`This`);
+		return interaction.reply({content: `This`, ephemeral: true});
 	},
 };
